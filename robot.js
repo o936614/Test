@@ -5,10 +5,10 @@ const path = require("path");
 const { Telegraf } = require("telegraf"); // Correct import for telegraf@4
 
 // Bot settings
-const BOT_TOKEN = "7311226265:AAGfb0ednKMPlVlLqm6U-H4SoetKdwnP8Og"; // استبدل بتوكن البوت من BotFather
-const apiId = 26525079; // استبدل بـ api_id من my.telegram.org
-const apiHash = "1a11e1d7da390e53b298e5707a5e88f6"; // استبدل بـ api_hash من my.telegram.org
-const stringSession = new StringSession("1BAAOMTQ5LjE1NC4xNjcuOTEAUAYY2qwwCRmTrIw2vug6c9idLYuCX/zzIwTnT2Hmlk0X809RYMkV1Am1Sgzjkev5TOCA8bHx50WQzIkJJFTERz/zRvKsZMtM7gDmTzV444jet5JU1ahvbX8d5V6M67O0S0LOWTZiysPYuoUGV22aEZg6dMeECYC2VDM4bC00GLjgGK8E0Rx1sPgfKpaZqBcCiL7u+sYJkPsskvL9c0yyWu0cP7nsEUvX7OUQg2qx8NKuEGOk6IpViVmEnH36Iro6PHvPF6II5OI44A7c4v6J29Ug6mLZzkFJzJvL/bmd5YZgMAc0Y9XI4Qwqyr9wHKium0SHbr43ybAsciGWltrjVpU="); // سيتم حفظ الجلسة هنا بعد تسجيل الدخول
+const BOT_TOKEN = ""; // استبدل بتوكن البوت من BotFather
+const apiId = ; // استبدل بـ api_id من my.telegram.org
+const apiHash = ""; // استبدل بـ api_hash من my.telegram.org
+const stringSession = new StringSession(""); // سيتم حفظ الجلسة هنا بعد تسجيل الدخول
 
 // Create MTProto client
 const client = new TelegramClient(stringSession, apiId, apiHash, {
